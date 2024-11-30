@@ -15,7 +15,7 @@ maintenance = { status = "passively-maintained" }
 
 [dependencies]
 rusqlite = { workspace = true }
-serde = "1"
+serde = { workspace = true }
 
 [dev-dependencies]
 serde_bytes = "0.11"
